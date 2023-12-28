@@ -3,6 +3,7 @@ import "./home.css"
 import Me from "../../assets/avatar-1.svg";
 import HeaderSocials from './HeaderSocials';
 import ScrollDown from './ScrollDown';
+import Shapes from './Shapes';
 
 const Home = () => {
   return (
@@ -12,12 +13,15 @@ const Home = () => {
         <h1 className="home__name">Ethan Wan</h1>
         <span className="home__education">I am Full-Stack Software Developer</span>
 
-        <HeaderSocials/>
+        <HeaderSocials />
 
         <a href="#contact" className="btn">Hire Me</a>
 
-        <ScrollDown/>
+        <ScrollDown />
+        
       </div>
+
+      <Shapes />
     </section>
   )
 }
